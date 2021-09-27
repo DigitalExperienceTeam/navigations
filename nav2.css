@@ -1,0 +1,234 @@
+
+
+.site-logo {
+    text-indent: 0
+}
+
+.flxb-button.flxb-docked:not(.flxb-dock-full) {
+    top: calc(75% - 100px);
+}
+
+.nav-wrapper {
+  padding: 0;
+}
+
+.navbar {
+background: #eee;
+border-radius: 0;
+}
+
+.navbar-dark .navbar-brand {
+color: #dc0050 !important;
+font-weight: 700;
+font-size: 21px;
+}
+
+  .navbar-nav {
+      margin: 0;
+  }
+  
+.navbar-toggler {
+    background: #dc0050;
+    padding: .25rem;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: none;
+}
+
+.fa-bars {
+    font-size: 1.5em;
+}
+
+.brand-underscore {
+    width: 100%;
+    margin: 0.5rem 0 0 0;
+    display: none;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.nav-item {
+    border-bottom: 1px solid #bbbbbb;
+    list-style: none outside none;
+    padding: 6px 0px;
+}
+
+
+.nav-item:last-of-type {
+    border-bottom: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #002e6f;
+    font-size: 17.6px;
+    font-family: sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #002e6f;
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link.disabled:before {
+    content: "\203A";
+    font-size: 1.5em;
+    line-height: 0;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+}
+
+.page-body {
+    left: 0 !important;
+    padding-left: 0;
+    width: 100% !important;
+}
+
+.breadcrumb {
+background-color: transparent !important;
+color: #222;
+font-size: 15px;
+margin: 10px 0 30px;
+padding: 0 !important;
+}
+
+.breadcrumb ol li:before {
+    content: ">";
+    padding: 0px 8px;
+}
+
+div.breadcrumb a {
+ color: #222;
+}
+
+div.breadcrumb a:hover {
+ color: #222;
+ text-decoration: underline !important;
+}
+
+.page-body {
+    padding: 0 16px;
+}
+
+.page-body h1 {
+  color: #002e6f;
+    font-family: "Arial Bold", Gadget, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 15px 0 25px 0;
+ }
+ 
+.pnlAdverts {
+    padding: 30px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-wrapper .pnlAdverts {
+    display: none;
+}
+
+.pnlAdverts img {
+    width: 288px;
+    max-width: 288px;
+}
+
+
+@media only screen and (min-width: 992px) {
+    
+.nav-wrapper {
+  padding: 0 15px;
+}
+    
+  .navbar {
+    max-width: 190px;
+    padding: 0;
+    background: none;
+    margin-top: 30px;
+  }
+  
+.navbar-nav {
+    flex-direction: column;
+}
+
+.navbar-dark .navbar-brand{
+    margin-right: 0;
+    font-size: 17px;
+}
+
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.fa-bars {
+    font-size: 1.1em;
+    position: relative;
+    bottom: 1px;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.brand-underscore {
+    display: block;
+}
+
+  .navbar-nav .nav-link {
+      padding-left: 0;
+  }
+  
+  .page-body {
+    padding: 0;
+}
+  
+.nav-wrapper .pnlAdverts {
+    display:block;
+    text-align: left;
+}  
+
+.page-body .pnlAdverts {
+    display: none;
+}
+
+.pnlAdverts img {
+    max-width: 190px;
+}
+  
+}
+
+@media only screen and (min-width: 1200px) {
+    
+     .navbar {
+    max-width: 220px;
+     }
+     
+     .navbar-dark .navbar-brand{
+    margin-right: 0;
+    font-size:20px;
+}
+
+    .pnlAdverts img {
+    max-width: 220px;
+}
+    
+}
