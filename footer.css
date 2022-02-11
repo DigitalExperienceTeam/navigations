@@ -1,0 +1,106 @@
+ .footer-main>div.container {
+     display: block;
+     overflow: visible;
+ }
+
+ .footer-main {
+     padding: 16px 0;
+     font-size: 14px;
+ }
+
+
+ .footer-column {
+     border-right: 0;
+ }
+
+ .sectionLinks {
+     display: block;
+     columns: 2;
+     column-rule: 1px solid rgba(255, 255, 255, 0.4);
+     column-gap: 30px;
+ }
+
+ .sectionLinks a {
+     display: block;
+     margin: 0 0 10px 0;
+ }
+
+ .footer-column:nth-of-type(1) {
+     padding: 0 20px;
+ }
+
+
+ .stayconnected {
+     text-align: center;
+     margin-top: 0;
+ }
+
+ .social-column {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .social-block {
+     align-self: flex-end;
+ }
+
+ .social {
+     text-align: center;
+     padding: 25px 0;
+ }
+
+ .social a {
+     display: inline;
+     margin: 0 10px;
+ }
+
+ .stayconnected img {
+     max-width: 100%;
+ }
+
+ @media only screen and (min-width: 576px) {
+
+
+     .sectionLinks {
+         columns: 3;
+     }
+
+     .footer-column:nth-of-type(3) {
+         margin: 5px 0;
+     }
+
+     .sectionLinks a {
+         margin: 0 0 8px 0;
+     }
+
+ }
+
+
+
+ @media only screen and (min-width: 768px) {
+
+
+     .stayconnected {
+         text-align: left;
+     }
+
+     .footer-column:nth-of-type(1) {
+         border-right: 1px solid rgba(255, 255, 255, 0.4);
+     }
+
+     .social {
+         text-align: left;
+         padding: 0;
+     }
+
+     .sectionLinks a:hover {
+         color: #fff !important;
+     }
+
+     .social a {
+         display: block;
+         margin: 0 0 8px 0;
+     }
+
+ }
+ 
